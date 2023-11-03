@@ -76,7 +76,7 @@ class Server {
                 DataInputStream inStream = new DataInputStream(clientSocket.getInputStream());
                 DataOutputStream outStream = new DataOutputStream(clientSocket.getOutputStream());
                 // get the outputstream of client
-                String filePath = "C:/Users/Raum/Desktop/zero copy/New folder/Ser/src/BLACKPINK.mp4"; /** edit here */
+                String filePath = "my_file.mp4"; /** edit here */
                 String line = "";
 
                 while (!line.equals("bye")) {
